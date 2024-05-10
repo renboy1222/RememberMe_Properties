@@ -132,7 +132,7 @@ public class JFrameApp extends javax.swing.JFrame {
         jButtonDashboard.setBorder(null);
         jButtonDashboard.setBorderPainted(false);
         jButtonDashboard.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButtonDashboard.setMargin(new java.awt.Insets(2, 0, 2, 0));
+        jButtonDashboard.setMargin(new java.awt.Insets(2, 5, 2, 0));
         jButtonDashboard.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonDashboardActionPerformed(evt);
@@ -145,7 +145,7 @@ public class JFrameApp extends javax.swing.JFrame {
         jButtonContent.setBorder(null);
         jButtonContent.setBorderPainted(false);
         jButtonContent.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButtonContent.setMargin(new java.awt.Insets(2, 0, 2, 0));
+        jButtonContent.setMargin(new java.awt.Insets(2, 5, 2, 0));
         jButtonContent.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonContentActionPerformed(evt);
@@ -158,7 +158,7 @@ public class JFrameApp extends javax.swing.JFrame {
         jButtonComments.setBorder(null);
         jButtonComments.setBorderPainted(false);
         jButtonComments.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButtonComments.setMargin(new java.awt.Insets(2, 0, 2, 0));
+        jButtonComments.setMargin(new java.awt.Insets(2, 5, 2, 0));
         jButtonComments.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonCommentsActionPerformed(evt);
@@ -171,7 +171,7 @@ public class JFrameApp extends javax.swing.JFrame {
         jButtonAnalytics.setBorder(null);
         jButtonAnalytics.setBorderPainted(false);
         jButtonAnalytics.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButtonAnalytics.setMargin(new java.awt.Insets(2, 0, 2, 0));
+        jButtonAnalytics.setMargin(new java.awt.Insets(2, 5, 2, 0));
         jButtonAnalytics.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonAnalyticsActionPerformed(evt);
@@ -184,7 +184,7 @@ public class JFrameApp extends javax.swing.JFrame {
         jButtonSettings.setBorder(null);
         jButtonSettings.setBorderPainted(false);
         jButtonSettings.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButtonSettings.setMargin(new java.awt.Insets(2, 0, 2, 0));
+        jButtonSettings.setMargin(new java.awt.Insets(2, 5, 2, 0));
         jButtonSettings.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonSettingsActionPerformed(evt);

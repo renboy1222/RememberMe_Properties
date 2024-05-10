@@ -105,7 +105,7 @@ public class JDialogUser extends javax.swing.JDialog implements MouseListener {
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 372, Short.MAX_VALUE)
+            .addGap(0, 362, Short.MAX_VALUE)
         );
 
         jPanel1.add(jPanel6, java.awt.BorderLayout.WEST);
@@ -120,7 +120,7 @@ public class JDialogUser extends javax.swing.JDialog implements MouseListener {
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 372, Short.MAX_VALUE)
+            .addGap(0, 362, Short.MAX_VALUE)
         );
 
         jPanel1.add(jPanel7, java.awt.BorderLayout.EAST);
@@ -142,7 +142,7 @@ public class JDialogUser extends javax.swing.JDialog implements MouseListener {
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.CENTER);
 
-        jPanel2.setPreferredSize(new java.awt.Dimension(886, 50));
+        jPanel2.setPreferredSize(new java.awt.Dimension(886, 60));
         jPanel2.setLayout(new java.awt.BorderLayout());
 
         jPanel3.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT, 10, 10));
@@ -150,7 +150,7 @@ public class JDialogUser extends javax.swing.JDialog implements MouseListener {
         jButtonNew.setIcon(new FlatSVGIcon("svg/add.svg",24,24));
         jButtonNew.setText("New");
         jButtonNew.setMargin(new java.awt.Insets(2, 2, 3, 2));
-        jButtonNew.setPreferredSize(new java.awt.Dimension(100, 32));
+        jButtonNew.setPreferredSize(new java.awt.Dimension(110, 42));
         jButtonNew.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonNewActionPerformed(evt);
@@ -161,7 +161,7 @@ public class JDialogUser extends javax.swing.JDialog implements MouseListener {
         jButtonUpdate.setIcon(new FlatSVGIcon("svg/edit.svg",24,24));
         jButtonUpdate.setText("Update");
         jButtonUpdate.setMargin(new java.awt.Insets(2, 2, 3, 2));
-        jButtonUpdate.setPreferredSize(new java.awt.Dimension(100, 32));
+        jButtonUpdate.setPreferredSize(new java.awt.Dimension(110, 42));
         jButtonUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonUpdateActionPerformed(evt);
@@ -174,7 +174,7 @@ public class JDialogUser extends javax.swing.JDialog implements MouseListener {
         jPanel4.setPreferredSize(new java.awt.Dimension(300, 50));
         jPanel4.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT, 10, 10));
 
-        jTextFieldSearch.setPreferredSize(new java.awt.Dimension(250, 32));
+        jTextFieldSearch.setPreferredSize(new java.awt.Dimension(250, 42));
         jTextFieldSearch.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 jTextFieldSearchKeyReleased(evt);
